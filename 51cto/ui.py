@@ -21,7 +21,7 @@ if uploaded_file:
             break
 
     if column_name:
-        # 生成“销售数量”列的折线图
+        # 生成“销售数量”列的折线图111
         st.line_chart(df[column_name])
     else:
         st.warning("数据中未找到包含 '销售数量' 的列，无法生成图表。")
