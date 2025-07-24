@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 
+
 #示例：数据可视化
 # 上传 xlsx 文件
 uploaded_file =st.file_uploader("上传数据",type='xlsx')
